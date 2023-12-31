@@ -1,5 +1,5 @@
 {% set name = "pytest-dependency" %}
-{% set version = "0.5.1" %}
+{% set version = "0.6.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: c2a892906192663f85030a6ab91304e508e546cddfe557d692d61ec57a1d946b
+  sha256: 934b0e6a39d95995062c193f7eaeed8a8ffa06ff1bcef4b62b0dc74a708bacc1
 
 build:
   number: 0
@@ -40,4 +40,4 @@ about:
 
 extra:
   recipe-maintainers:
-    - Windiana42 
+    - Windiana42
